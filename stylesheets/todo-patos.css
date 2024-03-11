@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Rokkitt";
+}
+
+#links-pagina {
+    margin: 0rem 2rem 2rem 2rem;
+    padding-top: 20px;
+    width: 20rem;
+    border-right: 1px solid rgb(112, 112, 112);
+    float: left;
+    position: sticky;
+    top: 0;
+    color: aliceblue;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(139, 139, 139);
+}
+
+a:hover {
+    color: azure;
+}
+
+#flex-text-container {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#flex-text-container div {
+    width: 60rem;
+    margin: 0;
+    padding: 0;
+}
+
+#flex-text-container h1 {
+    border-bottom: 1px solid rgb(112, 112, 112);
+}
+
+#flex-text-container p {
+    text-align: justify;
+    margin: 0;
+    padding: 5px;
+    font-size: 175%;
+    color: azure;
+}
+
+#images {
+    margin: 3rem 2rem 2rem 2rem;
+    padding-top: 20px;
+    width: 30rem;
+    float: right;
+    color: aliceblue;
+}
+
+#images div {
+    margin-top: 2rem;
+    padding: 5px;
+    border: 1px solid rgb(71, 71, 71);
+    background-color: rgb(25, 25, 25);
+    font-size: 1rem;
+    text-align: center;
+}

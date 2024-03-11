@@ -1,70 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
-
-body {
-    font-family: "Rokkitt";
-}
-
-#links-pagina {
-    margin: 0rem 2rem 2rem 2rem;
-    padding-top: 20px;
-    width: 20rem;
-    border-right: 1px solid rgb(112, 112, 112);
-    float: left;
-    position: sticky;
-    top: 0;
-    color: aliceblue;
-}
-
-li {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-    color: rgb(139, 139, 139);
-}
-
-a:hover {
-    color: azure;
-}
-
-#flex-text-container {
+#images-header {
+    margin-top: 20px;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
-#flex-text-container div {
-    width: 60rem;
-    margin: 0;
-    padding: 0;
+#images-header img {
+    border: 2px solid black;
 }
 
-#flex-text-container h1 {
-    border-bottom: 1px solid rgb(112, 112, 112);
+#images-header div {
+    margin-left: 25px;
+    margin-bottom: 25px;
+    padding: 25px;
+    height: 500px;
+    width: 300px;
+    background-color: rgb(105, 84, 84);
+    border: 1px solid rgb(121, 121, 121);
 }
 
-#flex-text-container p {
+#images-header p {
     text-align: justify;
-    margin: 0;
-    padding: 5px;
-    font-size: 175%;
-    color: azure;
-}
-
-#images {
-    margin: 3rem 2rem 2rem 2rem;
-    padding-top: 20px;
-    width: 30rem;
-    float: right;
-    color: aliceblue;
-}
-
-#images div {
-    margin-top: 2rem;
-    padding: 5px;
-    border: 1px solid rgb(71, 71, 71);
-    background-color: rgb(25, 25, 25);
-    font-size: 1rem;
-    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
 }

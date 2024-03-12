@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet-head-footer.css">
+    <link rel="stylesheet" href="registro-patos.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="titulo-header">
+            <h1> <a href="index.html">PATOS PÁGINA 2</a> </h1>
+        </div>
+    </header>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="todo-patos.html">TODO SOBRE PATOS</a></li>
+                <li><a href="tipos-patos.html">TIPOS DE PATOS</a></li>
+                <li><a href="fin-patos.html">FIN DE LOS PATOS</a></li>
+                <li><a href="registro-patos.html">REGISTRATE PARA SER UN PATO</a></li>
+            </ul>
+        </nav>
+        <section id="usuarios-patos">
+            <table id="tabla-usuarios">
+                <thead>
+                    <tr><th> NOMBRE </th> <th> APELLIDO </th> <th> PAÍS </th> <th> EMAIL </th> <th> TIPO DE PATO </th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Jerónimo</td><td>Awagno</td><td>Argentina</td><td>jerónimostagno@gmail.com</td><td>Tímido</td></tr>
+                    <tr><td>Luca</td><td>Pancetita</td><td>Afganistan</td><td>lucapancetita@hotmail.com</td><td>Pato piola</td></tr>
+                    <tr><td>Persona 1</td><td>Apellido 1</td><td>[CENSURADO]</td><td>email@email.com</td><td>tipo de pato</td></tr>
+                    <tr><td>Persona 2</td><td>Apellido 2</td><td>[CENSURADO]</td><td>email@email.com</td><td>tipo de pato</td></tr>
+                    <tr><td>Persona 3</td><td>Apellido 3</td><td>[CENSURADO]</td><td>email@email.com</td><td>tipo de pato</td></tr>
+                    <tr><td>Persona 4</td><td>Apellido 4</td><td>[CENSURADO]</td><td>email@email.com</td><td>tipo de pato</td></tr>
+                    <tr><td>Persona 5</td><td>Apellido 5</td><td>[CENSURADO]</td><td>email@email.com</td><td>tipo de pato</td></tr>
+                    <tr><td>Persona 6</td><td>Apellido 6</td><td>[CENSURADO]</td><td>email@email.com</td><td>tipo de pato</td></tr>
+                </tbody>
+            </table>
+            <section id="registro-usuarios">
+                <form action="">
+                        <div class="registro-inputs">
+                            <label for="nameRegistro">Nombre *</label><br>
+                            <input type="text" name="nameRegistro" required>
+                        </div>
+                        <div class="registro-inputs">
+                            <label for="apellidoRegistro">Apellido *</label><br>
+                            <input type="text" name="apellidoRegistro" required>
+                        </div>
+                        <div class="registro-inputs">
+                            <label for="paisRegistro">País *</label><br>
+                            <input type="text" name="paisRegistro" required>
+                        </div>
+                        <div class="registro-inputs">
+                            <label for="emailRegistro">Email *</label><br>
+                            <input type="email" name="emailRegistro" required>
+                        </div>
+                        <div class="registro-inputs">
+                            <label for="nameRegistro">Tipo de pato *</label><br>
+                            <select name="type-duck" required>
+                                <option value="opcion1">Pato de asalto</option>
+                                <option value="opcion2">Pato piola</option>
+                                <option value="opcion3">Pato giratorio</option>
+                                <option value="opcion4">Pato en el baño</option>
+                                <option value="opcion5">Pato timido</option>
+                            </select>
+                        </div>
+                        <div class="registro-inputs">
+                            <label for="nameRegistro">[CENSURADO]</label><br>
+                            <input type="email" disabled>
+                        </div>
+                    <button type="submit">Subir datos</button>
+                </form>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <h1>PATOS PÁGINA™</h1>
+        <p>No nos hacemos cargo de irregularidades que comiencen a suceder en su vida a partir del momento que haya visitado esta página. <br><br> a BITS 4 BYTES page.</p>
+    </footer>
+</body>
+</html>

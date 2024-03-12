@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+#usuarios-patos {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+#tabla-usuarios, th, td {
+    color: white;
+    font-size: 2rem;
+    border-collapse: collapse;
+    font-family: "Montserrat";
+    text-align: center;
+    height: 75px;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    width: 300px;
+}
+
+tr:hover {background-color: rgb(66, 66, 66);}
+
+#registro-usuarios {
+    padding: 15px;
+    font-size: 20px;
+    background-color: grey;
+    color: white;
+    margin-top: 10rem;
+    width: 800px;
+    height: 300px;
+    border: 10px solid rgb(197, 197, 197);
+    border-radius: 5%;
+    font-family: "Montserrat";
+}
+
+#registro-usuarios form {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.registro-inputs {
+    margin: 10px;
+    height: 45%;
+    width: 45%;
+}
+
+.registro-inputs input, .registro-inputs label {
+    width: 90%;
+    height: 30px;
+}
+
+#registro-usuarios button {
+    margin-top: 20px;
+    width: 50%;
+    background-color: black;
+    color: white;
+}
+

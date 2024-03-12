@@ -55,3 +55,13 @@ nav ul li a {
 nav ul li a:hover {
     background-color: rgb(54, 54, 54);
 }
+
+footer {
+    margin-top: 10rem;
+    border-top: 1px solid grey;
+    text-align: center;
+}
+
+footer p {
+    color: grey;
+}
